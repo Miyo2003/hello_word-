@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api.routes import router
+from app.controllers.controller import router
 
 app = FastAPI(
     title="Hello World API",
